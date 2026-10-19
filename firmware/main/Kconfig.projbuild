@@ -1,0 +1,14 @@
+menu "VANT-IA-MK1"
+    config VANT_WIFI_SSID
+        string "SSID de la red de control"
+        default ""
+
+    config VANT_WIFI_PASSWORD
+        string "Clave de la red de control"
+        default ""
+
+    config VANT_TCP_PORT
+        int "Puerto TCP de órdenes"
+        range 1024 65535
+        default 8765
+endmenu

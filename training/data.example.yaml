@@ -1,0 +1,12 @@
+# Ejemplo de formato Ultralytics. Cambiar path al dataset etiquetado real.
+path: /ruta/al/dataset_de_gestos
+train: images/train
+val: images/val
+names:
+  0: mano_arriba
+  1: mano_abajo
+  2: mano_izquierda
+  3: mano_derecha
+  4: mano_adelante
+  5: mano_atras
+  6: aterrizar

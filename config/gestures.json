@@ -1,0 +1,9 @@
+{
+  "mano_arriba": "UP",
+  "mano_abajo": "DOWN",
+  "mano_izquierda": "LEFT",
+  "mano_derecha": "RIGHT",
+  "mano_adelante": "FORWARD",
+  "mano_atras": "BACK",
+  "aterrizar": "LAND"
+}
